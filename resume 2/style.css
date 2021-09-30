@@ -1,0 +1,245 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito', sans-serif; 
+}
+body
+{
+    background: linear-gradient(to right, green, yellow);
+}
+.main-content
+{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: white;
+}
+.right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color: white;
+}
+.left-content{
+    padding: 1rem 3rem;
+}
+.imageBox{
+    width: 100%;
+    border-bottom: 1px solid #fcefef
+}
+.imageBox img{
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #01202e;
+}
+.name{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+}
+.career{
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 1rem 0;
+    padding-top: .2px;
+}
+.profileInfo{
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    color: black;
+    padding-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.profileInfo h3{
+    padding-top: 1rem;
+}
+.profileInfo ul{
+    padding-top: 1.2rem;
+}
+.profileInfo ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;    
+    color: black ;
+}
+.profileInfo ul li span{
+    
+    padding-bottom: .2rem;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.main-title{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+}
+.contact-info ul{
+    padding-top: 2rem;
+}
+.contact-info ul li {
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;    
+    color: black  ;
+}
+.contact-info ul li span{
+    padding-right: 1rem;
+    font-size: 1.1rem;
+    color: black;
+}
+.skill-section ul{
+    padding-top: 1rem;
+}
+.skill-section ul li{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   padding: .4rem 0;
+}
+.progress-bar{
+    width: 100%;
+    height: .5rem;
+    position: relative;
+    border-radius: 15px;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.right-title ul li p{
+    padding-bottom: 1rem;
+}
+.skill-title{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1rem;
+    padding-bottom: .4rem;
+}
+.references-section h6{
+    color: black;
+}
+.references-section p{
+    color: black;
+}
+.references-section ul li{
+    color: black;
+}
+.sub-title{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: black;
+}
+.sub-para{
+    color: black;
+    padding: .4rem 0;
+}
+.references-section li{
+    color: black;
+    padding: .2rem 0;
+}
+.references-section li i{
+    padding-right: .5rem;
+    font-size: 1.1rem;
+    color: black;
+}
+.right-section{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(26, 24, 24);
+}
+
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(85, 85, 240);
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+.right-title::after{
+    bottom: 0;
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: .3rem;
+    border-radius: 12px;
+    background-color: rgb(5, 5, 20);
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+}
+.para{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1.1rem;
+}
+.sect{
+    padding-bottom: 2rem;
+    grid-template-columns: repeat(2, 1rf);
+}
+.timeline{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: black;
+    text-transform: uppercase;
+}
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: black;
+    text-transform: uppercase;
+}
+.tl-content{
+    border-left: 1px solid rgb(179, 171, 171);
+    padding-left: 3rem;
+    position: relative;
+    padding-bottom: 2rem;
+}
+.tl-title-2::before{
+    content:"";
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    background-color: (55, 211, 24);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: 0;
+}
+.skill-section{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: black;
+    text-transform: unset;
+
+
